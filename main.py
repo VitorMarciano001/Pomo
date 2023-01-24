@@ -25,7 +25,6 @@ class MainWindow(QMainWindow):
         self.main_frame.setMaximumHeight(50)
 
         self.coloca_aqui = QHBoxLayout(self.main_frame)
-        
 
         self.teste = QFrame()
         self.teste.setStyleSheet("background-color: purple")
